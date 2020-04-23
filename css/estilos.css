@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.banner{
+    background: url(../img/fondo1.jpg);    
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.logo img{
+    width: 100px;
+    margin-top: -12px;
+    margin-left: 15px;
+    float: left;
+}
+
+
+.menu{
+    float: right;
+    margin-right: 30px;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.menu ul{
+    list-style-type: none; 
+}
+
+.menu ul li{
+    display: inline;
+    padding: 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ded6c0;
+}
+
+.mensaje{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mensaje h1, p{
+    text-align: center;
+}
+
+.mensaje h1, .banner-inferior-msj h1{
+    font-size: 60px;
+    line-height: 1.2;
+    color: #ded6c0;
+    text-transform: uppercase;
+}
+
+.mensaje hr, .banner-inferior-msj hr{
+    margin: 27px auto;
+    width: 100px;
+    color: #FFF;
+    height: 2px;
+}
+
+.mensaje p, .banner-inferior-msj p{
+    color: #ded6c0;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+
+}
+
+.evento-izquierda{
+    background-color: #d43c3c;
+}
+
+.evento-derecha{
+    background-color: #ded6c0;
+}
+
+.evento-izquierda, .evento-derecha{
+    width: 50%;
+    height: 400px;  
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.evento-izquierda-msj, .evento-derecha-msj{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.2;
+}
+
+.evento-izquierda-msj h3 , .evento-derecha-msj h3{
+    font-size: 30px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.evento-izquierda-msj{
+    color: #ded6c0;
+}
+
+.evento-derecha-msj{
+    color: #d43c3c;
+}
+
+.evento-izquierda-msj p , .evento-derecha-msj p{
+    margin-top: 25px;
+}
+
+.banner-inferior{
+    background-image: url(../img/Fondo2.jpg);
+    background-size: cover;
+    display: table;
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+.banner-inferior-msj{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-inferior-button{
+    position: relative;
+    top: 60px;
+    border: solid 2px #FFF;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    color: #ded6c0;
+    font-weight: 100;
+    letter-spacing: 1px;
+    
+}
+
+.banner-descriptor-card{
+    width: 48%;
+    float: left;
+    margin-top: 60px;
+    margin-right: 15px;
+}
+
+.banner-descriptor-card img{
+    float: left;
+    margin-right: 20px;
+}
+
+.banner-descriptor-card h3{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner-descriptor-card p{
+    text-align: left;
+    line-height: 1.2;
+    color: #372723;
+}
+
+
+ .info-izquierda, .info-derecha{
+    width: 50%;
+    height: 400px;
+    float: left;
+    position: relative;
+    margin-top: 60px;   
+}
+
+.info-izquierda{
+    background: #ded6c0;
+}
+
+.info-derecha{
+    background: #d43c3c;
+}
+
+
+.info-izquierda-msj, .info-derecha-msj{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.info-izquierda-msj, .info-derecha-msj{
+    text-align: center;
+}
+
+.info-izquierda-msj h3, .info-derecha-msj h3{
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 0.3;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info-izquierda-msj h3, .info-izquierda-msj p{
+    color: #d43c3c;
+}
+
+.info-derecha-msj h3, .info-derecha-msj p{
+    color: #ded6c0;
+}
+
+.info-derecha-msj p, .info-izquierda-msj p{
+    margin-top: 10px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.footer{
+    background: #261d1b;
+    display: table;
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.footer p{
+    color: #ded6c0; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
